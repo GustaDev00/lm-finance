@@ -43,7 +43,7 @@ export default {
     ),
     links: [
       { title: "Unternehmen", span: "Unternehmen", href: "/#" },
-      { title: "Offene stellen", span: "Offene stellen", href: "/#" },
+      { title: "Offene stellen", span: "Offene stellen", href: "/#vacancies" },
     ],
     button: { title: "Bewerben", href: "#" },
   },
@@ -331,7 +331,7 @@ export default {
       { content: "info@lm-finance.ch", href: "mailto:info@lm-finance.ch", title: "E-Mail" },
     ],
     copyrigth: {
-      text: <>Copyright © 2024 Andrade Gisper + Maler GmbH</>,
+      text: <>Copyright © 2024 L&M Finance AG</>,
       fiber: (
         <>
           Mit 💚 entwickelt von <a href="https://www.fiberweb.ch/">FiberWeb.ch</a>

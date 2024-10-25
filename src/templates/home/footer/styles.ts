@@ -6,6 +6,7 @@ import { Logo as _Logo } from "@/components/atoms/logo";
 import { TitleWhiteMedium } from "@/styles/components/content";
 import { ButtonSwipe } from "@/components/atoms/button-swipe";
 import { SocialShare } from "@/components/atoms/social-share";
+import { Icon, Span } from "@/components/atoms/button-swipe/styles";
 
 export const CareerMove = styled.section`
   position: relative;
@@ -50,7 +51,17 @@ export const Title = styled.h1`
   `}
 `;
 
-export const Button = styled(ButtonSwipe)``;
+export const Button = styled(ButtonSwipe)`
+  &:hover {
+    ${Span} {
+      left: calc(50% - 4rem);
+    }
+
+    ${Icon} {
+      right: calc(85% - 3rem);
+    }
+  }
+`;
 
 export const Content = styled.article`
   display: flex;

@@ -65,6 +65,7 @@ export const Wrapper = styled(_Wrapper)`
   justify-content: flex-end;
   gap: 13.2rem;
   padding-bottom: 22rem;
+  z-index: 1;
 
   ${mediaMaxWidth("isMobileOrTabletVertical")`
     padding: 3.6rem 6rem;

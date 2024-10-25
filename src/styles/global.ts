@@ -31,6 +31,7 @@ export const GlobalStyles = createGlobalStyle`
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
     -webkit-text-size-adjust: none;
+    scroll-behavior: smooth;
 
     @media (max-width: ${desktop1024.width}px)  {
       font-size: calc(55vw / ${desktop1024.width} * 10);
