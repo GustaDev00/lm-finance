@@ -6,8 +6,8 @@ export default () => {
   const { span, cards, img, logo_small } = C.vacancies;
 
   return (
-    <S.Vacancies id="vacancies">
-      <S.Wrapper>
+    <S.Vacancies>
+      <S.Wrapper id="vacancies">
         <S.Span span={span} />
         <S.Content>
           <S.Img {...img} />
