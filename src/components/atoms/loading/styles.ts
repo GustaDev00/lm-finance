@@ -17,19 +17,13 @@ export const Loading = styled.div<{ $isActive: boolean }>`
   transition: opacity 0.5s ease, visibility 0.5s ease;
 `;
 
-export const Container = styled.div`
-  position: relative;
-  border: 0.3rem solid ${({ theme }) => theme.rosewood};
-  padding: 5rem;
-  border-radius: 50%;
-`;
+export const Container = styled.div``;
 
 export const Img = styled(LazyImage)``;
 
 export const ProgressMensage = styled.p`
   position: absolute;
   left: 50%;
-  margin-top: 8rem;
   transform: translateX(-50%);
   font-size: 1.8rem;
   text-align: center;

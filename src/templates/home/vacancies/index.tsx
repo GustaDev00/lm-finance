@@ -13,7 +13,7 @@ export default () => {
           <S.Img {...img} />
           <S.List>
             {cards.map(({ title, text, button }, index) => (
-              <S.Item>
+              <S.Item key={index}>
                 <S.Header>
                   <S.LogoSmall>
                     <S.Logo {...logo_small} />

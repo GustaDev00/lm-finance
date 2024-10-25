@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/swiper-bundle.css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/effect-cards";
+import { Loading } from "@/components/atoms/loading";
 
 const RootLayout = ({
   children,
@@ -25,6 +26,7 @@ const RootLayout = ({
           <ThemeProvider theme={theme}>
             <GlobalStyles />
             <GSAPInitializer />
+            <Loading />
             <main>
               <Suspense>{children}</Suspense>
             </main>
