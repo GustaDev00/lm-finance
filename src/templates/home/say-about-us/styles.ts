@@ -77,6 +77,10 @@ export const Slide = styled.div`
     height: 100%;
     background: url("/imgs/say-about-us/card.png") no-repeat center;
     background-size: 200%;
+
+    ${mediaMaxWidth("mobile")`
+      background-size: unset;
+    `}
   }
 
   ${mediaMaxWidth("isMobileOrTabletVertical")`

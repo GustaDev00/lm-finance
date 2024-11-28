@@ -6,10 +6,14 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default {
   share: [
-    { href: "#", icon: FaFacebookF, title: "Facebook" },
-    { href: "#", icon: FaTiktok, title: "Tiktok" },
-    { href: "#", icon: FaInstagram, title: "Instagram" },
-    { href: "#", icon: FaLinkedin, title: "Linkedin" },
+    {
+      href: "https://web.facebook.com/LMFinanceAG?_rdc=1&_rdr#",
+      icon: FaFacebookF,
+      title: "Facebook",
+    },
+    { href: "https://www.tiktok.com/@lmfinance.ag", icon: FaTiktok, title: "Tiktok" },
+    { href: "https://www.instagram.com/lmfinance.ag/", icon: FaInstagram, title: "Instagram" },
+    { href: "https://www.linkedin.com/company/lm-finance-ag", icon: FaLinkedin, title: "Linkedin" },
   ],
   header: {
     bg: {
@@ -42,7 +46,7 @@ export default {
       </>
     ),
     links: [
-      { title: "Unternehmen", span: "Unternehmen", href: "/#" },
+      { title: "Unternehmen", span: "Unternehmen", href: "/#vacancies" },
       { title: "Offene stellen", span: "Offene stellen", href: "/#vacancies" },
     ],
     button: { title: "Bewerben", href: "#" },
