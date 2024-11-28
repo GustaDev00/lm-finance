@@ -23,11 +23,8 @@ export default {
     title: (
       <>
         Dein nächster
-        <br /> Karriereschr
-        <CustomBr byViewport="mobile" />
-        itt
-        <CustomBr byViewport="desktop" /> beginnt
-        <CustomBr byViewport="mobile" /> hier!
+        <br /> Karriereschritt
+        <CustomBr byViewport="desktop" /> beginnt hier!
       </>
     ),
     text: (
@@ -56,9 +53,7 @@ export default {
       <>
         <span>L&M Finance AG</span>
         <CustomBr byViewport="mobile" /> ist ein führendes Schweizer
-        <CustomBr byViewport="desktop" /> Unternehmen im Finanz- und Versicherungssekt
-        <CustomBr byViewport="mobile" />
-        or.
+        <CustomBr byViewport="desktop" /> Unternehmen im Finanz- und Versicherungssektor.
       </>
     ),
     text: (
@@ -207,12 +202,8 @@ export default {
     },
     title: (
       <>
-        Erfahren Sie
-        <CustomBr byViewport="mobile" /> mehr über <CustomBr byViewport="mobile" />
-        unseren
-        <br /> Bewerbungspr
-        <CustomBr byViewport="mobile" />
-        ozess
+        Erfahren Sie mehr über unseren
+        <br /> Bewerbungsprozess
       </>
     ),
     list: [

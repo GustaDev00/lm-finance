@@ -43,6 +43,10 @@ export const Content = styled.article``;
 
 export const Title = styled.h1`
   ${TitleWhiteMedium}
+
+  ${mediaMaxWidth("mobile")`
+    font-size: 3rem;
+  `}
 `;
 
 export const List = styled.ul`

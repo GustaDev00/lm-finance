@@ -29,6 +29,11 @@ export const Title = styled.h2`
     color: var(--Dark-font-1, #032146);
     font-weight: 700;
   }
+
+  ${mediaMaxWidth("mobile")`
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+  `}
 `;
 
 export const Text = styled.p`

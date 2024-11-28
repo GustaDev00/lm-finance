@@ -10,7 +10,7 @@ export const TitleWhiteBig = css`
   letter-spacing: -0.425rem;
 
   ${mediaMaxWidth("isMobileOrTabletVertical")`
-    font-size: 42px;
+    font-size: 4.2rem;
     line-height: 5.4rem;
     letter-spacing: -0.2125rem;
   `}
@@ -25,7 +25,7 @@ export const TitleWhiteMedium = css`
   text-transform: uppercase;
 
   ${mediaMaxWidth("isMobileOrTabletVertical")`
-    font-size: 42px;
+    font-size: 4.2rem;
     line-height: 5.9rem;
     letter-spacing: -0.2125rem;
   `}
